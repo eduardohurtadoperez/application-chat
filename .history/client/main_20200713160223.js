@@ -1,0 +1,1 @@
+var socket = io.connect('http://192.168.24.81:6677',{'forceNew':true});
