@@ -1,4 +1,4 @@
-var socket = io.connect('https://application-chat-comas-city.herokuapp.com',{'forceNew':true});
+var socket = io.connect('https://application-chat-comas-city.herokuapp.com/',{'forceNew':true});
 socket.on('messages', function(data){
     console.log(data);
     render(data);
